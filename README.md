@@ -9,21 +9,7 @@ iTermocil supports iTerm 2.x and the new 3.x (including later betas). It works b
 ## Installing iTermocil
 
 ```bash
-# Install `itermocil` via Homebrew
-$ brew update
-$ brew install TomAnthony/brews/itermocil
-
-# Create your layout directory
-$ mkdir ~/.itermocil
-
-# Edit ~/.itermocil/sample.yml (look for sample layouts in this very `README.md`)
-# There are also a variety of example files in 'test_layouts' directory in this repo
-$ itermocil --edit sample
-
-# Run your newly-created sample layout
-$ itermocil sample
-
-# Note that you can also used ~/.teamocil as your directory, if you're a teamocil user.
+pip3 install https://github.com/PythonicNinja/itermocil
 ```
 
 ## Using iTermocil
@@ -327,4 +313,5 @@ A huge thanks to [Rémi Prévost](http://www.exomel.com/en) who authored [teamoc
 
 ## License
 
-iTermocil is © 2016 [Tom Anthony](https://twitter.com/tomanthonyseo) and may be freely distributed under the [MIT license](https://github.com/TomAnthony/itermocil/blob/master/LICENSE.md). See the LICENSE file for more information.
+This repo is updated version of original (https://github.com/TomAnthony/itermocil) which didn't support python3
+
