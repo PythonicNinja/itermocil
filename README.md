@@ -9,7 +9,7 @@ iTermocil supports iTerm 2.x and the new 3.x (including later betas). It works b
 ## Installing iTermocil
 
 ```bash
-pip3 install https://github.com/PythonicNinja/itermocil
+pip3 install git+https://github.com/PythonicNinja/itermocil
 ```
 
 ## Using iTermocil
